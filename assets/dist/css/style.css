@@ -1,0 +1,420 @@
+.profile_image {
+    padding-left: 30px;
+    padding-bottom: 15px;
+    height: 143px;
+    width: 158px;
+}
+
+.loading {
+    display:    none;
+    position:   fixed;
+    z-index:    2000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('../img/FhHRx.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+.close-btn, .remove-btn {
+    cursor: pointer;
+}
+
+.work-day {
+    background-color:#00c0ef;
+    border-color:#00c0ef;
+}
+.today {
+    background-color:#0073b7;
+    border-color:#0073b7;
+}
+
+.andCritspan, .inlineBlock {
+    display: inline-block;
+}
+.vat {
+    vertical-align: top;
+}
+.posrel {
+    position: relative;
+}
+.pointer {
+    cursor: pointer;
+}
+.cmnt-id-hldr {
+    max-width: 150px;
+    min-width: 40px;
+    display: inline-block;
+    height: 18px;
+    line-height: 16px;
+    position: absolute;
+    background-color: #fff;
+    border: #ededed solid 1px;
+    border-radius: 20px;
+    right: 7px;
+    top: 25px;
+}
+.cmnt-id-hldr .white-curve {
+    top: -2px;
+    bottom: -1px;
+    right: -3px;
+    width: 10px;
+}
+.posabsonly {
+    position: absolute;
+}
+.cmnt-id-hldr .orngDot {
+    background-color: #f16621;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    bottom: 0;
+}
+.cmnt-id {
+    color: #666;
+    font-size: 12px;
+    padding: 0 4px;
+    margin-right: 14px;
+    max-width: 50px;
+    overflow: hidden;
+    display: inline-block;
+    text-overflow: ellipsis;
+}
+.pl8 {
+    padding-left: 8px!important;
+}
+.bdrbtm5 {
+    border-bottom: 1px dashed #e5e5e5;
+}
+.pb10 {
+    padding-bottom: 10px;
+}
+@media (min-width: 1281px) {
+    .category {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 1370px) {
+    .taskcmtwid {
+        width: 500px;
+    }
+}
+.breakWord {
+    word-wrap: break-word;
+}
+.clrboth {
+    clear: both;
+}
+.lh23 {
+    line-height: 23px;
+}
+.txt-bill {
+    color: #2ba2ad;
+}
+.activity-fromTo {
+    color: #e67e22;
+}
+.mR25 {
+    margin-right: 25px;
+}
+.ml20 {
+    margin-left: 20px;
+}
+.mB20 {
+    margin-bottom: 20px;
+}
+.w100per {
+    width: 100%;
+}
+.qulbl2 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #000;
+}
+.w100perimp {
+    width: 100%!important;
+}
+.col888 {
+    color: #888;
+}
+
+.eachtimerow {
+    margin-bottom: 10px;
+}
+
+.projectlist-box-a {
+    border-radius: 21px !important;
+    padding: 10px 15px !important;
+    margin: 0 5px !important;
+    border: none !important;
+}
+
+.projectlist-box-li {
+    padding: 6px 10px !important;
+    line-height: 32px;
+}
+
+.no-margin-left {
+    margin-left: 0px !important;
+}
+
+.task-id-a:active, .task-id-a:hover {
+    color: #fff !important;
+}
+
+.fileIcon .txt_extn {
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    top: 70px;
+    right: 25px;
+    width: 55px;
+    height: 28px;
+    text-align: center;
+    padding-top: 1px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    letter-spacing: 1px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.fileIcon {
+    /*width: 90px;
+    margin: 10px;*/
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    height: 165px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 14px;
+}
+
+.attachments-images {
+    max-height: 128px;
+    max-width: 100%;
+    margin: auto;
+    display: block;
+    padding: 5px;
+}
+
+.taskimagename {
+    height: 20px;
+    overflow: hidden;
+}
+
+.autoheightnooverflow {
+    height: auto!important;
+    overflow: none!important;
+}
+
+.taskimagebuttons {}
+
+
+.attach-overlay {
+    z-index: 10000;
+    background-color: #fff;
+    /*border-top: #ddd solid 1px;*/
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    cursor: default;
+    width: 100%;
+    height: 20px;
+    overflow: hidden;
+    padding: 0 3px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    transition: .2s ease-in-out;
+}
+.spaceNowrap {
+    white-space: nowrap;
+}
+.ovly-file-name {
+    font-size: 13px;
+    width: 190px;
+    overflow: hidden;
+    padding: 5px;
+    text-align: left;
+    display: block;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.txtOverflow {
+    text-overflow: ellipsis;
+}
+[class^="zoho-"], [class*=" zoho-"] {
+    font-family: 'zohoproj'!important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.ovly-del-btn, .ovly-download-btn {
+    font-size: 14px;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+.pointer {
+    cursor: pointer;
+}
+
+.file-download-btn, .file-delete-btn {
+    color: black !important;
+}
+
+.commenters-name, .attachment-header {
+    font-weight: 600;
+    color: #3c8dbc !important;
+}
+
+.people_col12 {
+    color: #fff;
+    background-color: #eb5768;
+}
+.detail-bug-id {
+    display: inline-block;
+    padding: 2px 6px;
+    position: relative;
+    bottom: 2px;
+    margin-right: 8px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+.myclass-logo {
+    line-height: 49px !important;
+    padding: 0px !important;
+}
+
+.fa {
+    font-size: initial !important;
+}
+
+#filter_icon{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1281px)
+.tasklist-header {
+    padding: 15px 15px 25px 15px; !important;
+}
+
+.filter-block {
+    overflow: hidden;
+    height: 100px;
+}
+
+.overflow-on {
+    overflow-y: scroll!important;
+}
+
+.wysihtmltask-desc .wysihtml5-sandbox {height:400px!important;}
+
+.side-menu-bar, .skin-blue .main-header .logo {
+    background-color: #150f1c!important;
+}
+
+.activity-print {
+    padding-left: 32px;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+@media only screen and (max-width: 600px) {
+    .task-div {
+        overflow-x:scroll!important;
+    }
+}
+
+.associate-links {
+    margin: 10px;
+}
+
+#task-description-noedit {
+    border: 1px solid darkgrey;
+    padding: 10px;
+}
+
+.cursou-type {
+    cursor: pointer;
+}
+
+.task-title, .task-title-htag, .task-title-input {
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    border: none;
+    font-size: 18px;
+    width: 100%;
+    outline: none;
+}
+.task-title:hover, .task-title:focus {
+    border-bottom: 1px solid #85bffd !important;
+}
+.task-title-htag:hover, .task-title-htag:focus {
+    border-bottom: 1px solid #85bffd !important;
+}
+.task-title-input:hover, .task-title-input:focus {
+    border-bottom: 1px solid #85bffd !important;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { text-decoration: underline; }
+}
+
+.size-96 {
+    font-size: 96px;
+    color: #3c8dbc;
+}
+
+.size-30 {
+    font-size: 30px;
+    color: #f3f3f3;
+}
+
+.step {
+    display: inline-block;
+    line-height: 1;
+    position: relative;
+    width: 10%;
+}
+
+.invoice-row-a {
+    border-radius: 21px !important;
+    padding: 8px 15px !important;
+    margin: 0 5px !important;
+    border: none !important;
+}
+
+.project-name-link, .project-name-link:hover {
+    color: white;
+}
+
+.task-name {
+    width: 200px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
